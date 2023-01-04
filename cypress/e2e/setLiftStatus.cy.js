@@ -3,15 +3,15 @@
 import Ajv from "ajv"
 const ajv = new Ajv()
 
-describe('Executar query de allLifts', () => {
+describe('Executar mutation de setLiftStatus', () => {
     it('Faz requisição', () => {
         cy.request({
             method: "POST",
             "content-type": "application/json",
             url: "/graphql",
-            body: {query: "query{allLifts(status:OPEN){id}}"}
+            body: {query: "mutation{setLiftStatus(id:\"astra-express\", status:CLOSED){id, name, status}}"}
         }).then(res => {
-            cy.fixture('AllLifts').then((schema) => {
+            cy.fixture('setLiftStatus').then((schema) => {
         
               //Compila o schema e guarda em cache
               const validate = ajv.compile(schema)

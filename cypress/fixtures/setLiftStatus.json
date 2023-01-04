@@ -1,0 +1,77 @@
+{
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "type": "object",
+            "default": {},
+            "title": "The data Schema",
+            "required": [
+                "setLiftStatus"
+            ],
+            "properties": {
+                "setLiftStatus": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The setLiftStatus Schema",
+                    "required": [
+                        "id",
+                        "name",
+                        "status"
+                    ],
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The id Schema",
+                            "examples": [
+                                "astra-express"
+                            ]
+                        },
+                        "name": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The name Schema",
+                            "examples": [
+                                "Astra Express"
+                            ]
+                        },
+                        "status": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The status Schema",
+                            "examples": [
+                                "CLOSED"
+                            ]
+                        }
+                    },
+                    "examples": [{
+                        "id": "astra-express",
+                        "name": "Astra Express",
+                        "status": "CLOSED"
+                    }]
+                }
+            },
+            "examples": [{
+                "setLiftStatus": {
+                    "id": "astra-express",
+                    "name": "Astra Express",
+                    "status": "CLOSED"
+                }
+            }]
+        }
+    },
+    "examples": [{
+        "data": {
+            "setLiftStatus": {
+                "id": "astra-express",
+                "name": "Astra Express",
+                "status": "CLOSED"
+            }
+        }
+    }]
+}
