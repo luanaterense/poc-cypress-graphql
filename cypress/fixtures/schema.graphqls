@@ -1,0 +1,13 @@
+type Country {
+  code: ID
+  name: String
+  native: String
+  phone: String
+  continent: Continent
+  capital: String
+  currency: String
+  languages: [Language!]!
+  emoji: String
+  emojiU: String
+  states: [State!]
+}

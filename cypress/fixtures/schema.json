@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "type": "object",
+            "default": {},
+            "title": "The data Schema",
+            "required": [
+                "allLifts"
+            ],
+            "properties": {
+                "allLifts": {
+                    "type": "array",
+                    "default": [],
+                    "title": "The allLifts Schema",
+                    "items": {
+                        "type": "object",
+                        "default": {},
+                        "title": "A Schema",
+                        "required": [
+                            "id"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The id Schema",
+                                "examples": [
+                                    "astra-express"
+                                ]
+                            }
+                        },
+                        "examples": [{
+                            "id": "astra-express"
+                        }]
+                    },
+                    "examples": [
+                        [{
+                            "id": "astra-express"
+                        }]
+                    ]
+                }
+            },
+            "examples": [{
+                "allLifts": [{
+                    "id": "astra-express"
+                }]
+            }]
+        }
+    },
+    "examples": [{
+        "data": {
+            "allLifts": [{
+                "id": "astra-express"
+            }]
+        }
+    }]
+}

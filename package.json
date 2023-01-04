@@ -1,0 +1,15 @@
+{
+  "name": "poc-cypress-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^8.11.2",
+    "cypress": "^12.2.0"
+  }
+}

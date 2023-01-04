@@ -1,0 +1,24 @@
+{
+    "data": {
+        "allLifts": [
+            {
+                "id": "astra-express"
+            },
+            {
+                "id": "jazz-cat"
+            },
+            {
+                "id": "jolly-roger"
+            },
+            {
+                "id": "neptune-rope"
+            },
+            {
+                "id": "prickly-peak"
+            },
+            {
+                "id": "snowtooth-express"
+            }
+        ]
+    }
+}
