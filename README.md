@@ -26,6 +26,6 @@ Caso queira apenas executar localmente o teste, execute o comando abaixo e utili
 
 Ao executar os testes, será possível visualizar as evidências locais nas pastas ..\cypress\videos e ..\cypress\evidências.
 
-Em nuvem, será possível verificar os gráficos e evidências neste [link](https://cloud.cypress.io/projects/xh7k56/runs/3/test-results/e10a5ea9-5086-46e2-a796-2c70f1b4dcb3 "link").
+Em nuvem, será possível verificar os gráficos e evidências neste [link](https://cloud.cypress.io/projects/xh7k56/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&timeRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D "link").
 
 O GitHub Actions também demonstrará a execução do teste.
